@@ -1,8 +1,8 @@
-package com.caomt.noxmlweb;
+package com.caomt.noxmlweb.config;
 
+import com.caomt.noxmlweb.web.WebConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import spittr.web.WebConfig;
 
 public class SpitterWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
   

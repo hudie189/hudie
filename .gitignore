@@ -27,3 +27,14 @@
 *.exe
 *.out
 *.app
+
+#java
+.idea
+.settings
+target
+.classpath
+.project
+*.iml
+
+.gitignore
+*/.gitignore

@@ -36,5 +36,3 @@ target
 .project
 *.iml
 
-.gitignore
-*/.gitignore

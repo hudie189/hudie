@@ -11,7 +11,21 @@ public class HomeController {
 
     @ResponseBody
     @RequestMapping(value = "/sss",method = RequestMethod.GET)
-    public String home(){
+    public String home() throws TestException {
+        int i = 1;
+        if(i != 2){
+            throw new TestException();
+        }
+        return "hello........";
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/s",method = RequestMethod.GET)
+    public String home2() throws HomeException {
+        int i = 1;
+        if(i != 2){
+            throw new HomeException();
+        }
         return "hello........";
     }
 }
